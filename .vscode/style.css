@@ -17,6 +17,7 @@
     padding: 0;
     box-sizing: border-box;
     background: var(--bg-url) no-repeat top center/cover;
+    height: 100vh;
     font-family: "Inter", sans-serif;
     color: var(--text-color);
   }
@@ -149,4 +150,12 @@
     width: 14px;
     height: 14px;
     vertical-align: middle;
+  }
+  @media (min-width: 700px;) { 
+   :root{
+    --bg-url: url(./assets/bg-desktop.png);
+   }
+    .light{
+      --bg-url: url(./assets/bg-desktop-light.jpg);
+    }
   }
